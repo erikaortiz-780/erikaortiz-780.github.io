@@ -129,12 +129,13 @@ padding-left: 10px;
 			width: 50%;
 			float: left;
 			display: table-cell;
-			height: 370px;
+			height: 400px;
 		}
 
 
  		.image {
  			padding: 150px 0;
+      height: 400px;
  		}
 
 		img{
