@@ -1,3 +1,4 @@
+
 header {
 margin: 0 auto;
   height: 10%;
@@ -15,14 +16,15 @@ h1 {
 display: block;
   float: right;
   margin-top: -40px;
-  margin-right: 20px;
-  width: 20%;
+  margin-right: 5%;
+  width: 30%;
   font-family: 'Handlee', cursive;
   word-spacing: 15px;
+  font-size: 20px;
 }
 
 a.nav:link {
-    color: black;
+    color: #000000;
     text-decoration: none;
 
 }
@@ -57,8 +59,8 @@ left: 50%;
 top: 90%;
 -webkit-transform: translate(-50%, -50%);
 transform: translate(-50%, -50%);
-    border: 3px solid black;
-    background: #cc8500;
+    border: 3px solid #ffd700;
+    background: #ffd700;
     padding: 2px;
     width: 30%;
 }
@@ -68,7 +70,7 @@ h5 {
   text-align: center;
   font-size: 30px;
   font-weight: bold;
-  color: black;
+  color: #ffffff;
 font-family: 'Handlee', cursive;
 }
 
@@ -79,7 +81,7 @@ a:link {
 .two {
   width: 100%;
   height: 600px;
-  background: white;
+  background: #ffffff;
 }
 
 .about {
@@ -104,36 +106,80 @@ font-family: 'Handlee', cursive;
 .three {
   width: 100%;
   height: 600px;
-  background: #D3D3D3;
+  background: #ffd700;
 }
 
 h3 {
-  width: 30%;
-  float: left;
   text-align: center;
   font-size: 35px;
   font-weight: bold;
   color: #cc8500;
 font-family: 'Handlee', cursive;
-margin: 60px 100px 40px 30px;
-
+padding-left: 10px;
 }
 
-#locator {
-  position: absolute;
-  visibility: visible;
-  left: 550px; top: 1550px; z-index: 200;
-}
+.container{
+			width: 100%;
+			height: 600px;
+			overflow: auto;
+			display: table;
+		}
+		.menu{
+			width: 50%;
+			float: left;
+			display: table-cell;
+			height: 500px; /*Set height so the divs have the same height*/
+		}
 
+		/*Use to adjust your paragraph text veritically*/
+ 		.image {
+ 			padding: 150px 0;
+ 			height: 254px;
+ 		}
+
+		img{
+			width: 100%;
+		}
 
 .four {
   width: 100%;
-  height: 600px;
-  background: white;
+  height: 200px;
+  background: #ffffff;
 }
 
-#directions {
-  position: absolute;
-  visibility: visible;
-  left: 540px; top: 2500px; z-index: 200;
+h4 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  color: #000000;
+font-family: 'Handlee', cursive;
+padding-left: 30px;
 }
+
+.container-two{
+			width: 100%;
+			height: 200px;
+			overflow: auto;
+			display: table;
+		}
+		.hours{
+			width: 50%;
+			float: left;
+			display: table-cell;
+			height: 200px; /*Set height so the divs have the same height*/
+		}
+
+		/*Use to adjust your paragraph text veritically*/
+ 		.direction {
+ 			padding: 130px 0;
+ 			height: 200px;
+ 		}
+
+    h6 {
+      text-align: center;
+      font-size: 30px;
+      font-weight: bold;
+      color: #ffffff;
+    font-family: 'Handlee', cursive;
+    background: #000000;
+    }
