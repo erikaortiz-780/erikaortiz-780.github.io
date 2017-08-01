@@ -1,0 +1,16 @@
+header {
+  width: 10%;
+  background: orange;
+  display: block;
+}
+
+div.name {
+  position: relative;
+  margin-top: 3%;
+  margin-right: 3%;
+}
+
+div.h1 {
+  font-family: 'Caveat', cursive;
+  font-size: 50px;
+}
